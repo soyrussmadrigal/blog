@@ -20,3 +20,9 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+.container{
+    main-height: 100vh;
+    background-color: var(--bg);
+    color: var(--text-color);
+}
