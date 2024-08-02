@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './Navbar.module.css'
+import styles from './navbar.module.css'
 
 export default function Navbar() {
   return (
-    <div className='styles.container'>Navbar</div>
+    <div className={styles.container}>Navbar</div>
   )
 }
