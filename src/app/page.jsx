@@ -1,19 +1,13 @@
 import Link from "next/link";
 import styles from "./homepage.module.css";
+import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
     <div>
-      <Link href="/"> 
-      
-      <h1>Lorem ipsum dolor </h1>
-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio? 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magni tenetur delectus fuga corporis quibusdam natus omnis assumenda eius excepturi, et ad voluptates animi quasi iure fugit harum id odio? 
-      
-      
-       </Link>
+      <Navbar />
+      <Footer />
     </div>
   );
 }
