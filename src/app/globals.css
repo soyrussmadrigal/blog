@@ -21,6 +21,13 @@ a {
   text-decoration: none;
 }
 
+.light {
+  --bg: black;
+  --text-color: #ddd;
+  --softBG: #af273a;
+  --softTextColor: #a6a6a6;
+}
+
 .container {
   main-height: 100vh;
   background-color: var(--bg);
