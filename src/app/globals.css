@@ -22,9 +22,9 @@ a {
 }
 
 .light {
-  --bg: black;
-  --text-color: #ddd;
-  --softBG: #af273a;
+  --bg: #0f172a;
+  --textColor: #ddd;
+  --softBG: #1f273a;
   --softTextColor: #a6a6a6;
 }
 
